@@ -1,0 +1,21 @@
+.todo {
+    display: grid;
+    grid-template-columns: 2fr .7fr;
+    border-bottom: 1px solid #282c34;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    button {
+        background: none;
+        border: none;
+        background:  #cc0000;
+        color: #fff;
+        border-radius: 5px;
+        width: 100px;
+        padding: 4px 0;
+        justify-self: end;
+        transition: all .3s ease;
+        outline: none;
+        cursor: pointer;
+    }
+}

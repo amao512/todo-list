@@ -1,0 +1,22 @@
+.todoList {
+    border: 1px solid #282c34;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 20px;
+}
+
+.noTodos {
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #282c34;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 545px){
+    .todoList,
+    .noTodos {
+        border-radius: 0;
+        padding: 10px;
+        border: none;
+    }
+}
